@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="7" time="0.160203">
+    <testcase classname="Login application with data" name="login to account" time="0.156131">
+        <system-out>
+            <![CDATA[Given User is on Home page..................................................passed
+When User enters following userid and password..............................passed
+Then User should be able to login with username and password................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="login to application" name="login to account" time="0.002202">
+        <system-out>
+            <![CDATA[Given user is on Home page..................................................passed
+And user enters userid "pooja" and password "A123"..........................passed
+When click on Submit Button.................................................passed
+Then user navigates to first page...........................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="login to application" name="Open New tab" time="0.000346">
+        <system-out>
+            <![CDATA[Given user is on Home page..................................................passed
+And user enters userid and password.........................................passed
+When user click On Privacy Button as "Privacy"..............................passed
+Then user should be navigate to Privacy Details page........................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="login to application" name="sign up" time="0.000444">
+        <system-out>
+            <![CDATA[Given user is on Home page..................................................passed
+When click on "Signup Link".................................................passed
+And signup form is displayed................................................passed
+Then user should be entre following madatory details to create account......passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="login to application" name="login to account" time="0.000408">
+        <system-out>
+            <![CDATA[Given user is on Home page..................................................passed
+And user login with userid Apurve and password Ap123........................passed
+When click on Submit Button.................................................passed
+Then user navigates to first page...........................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="login to application" name="login to account 2" time="0.000389">
+        <system-out>
+            <![CDATA[Given user is on Home page..................................................passed
+And user login with userid Kshitija and password KS345......................passed
+When click on Submit Button.................................................passed
+Then user navigates to first page...........................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="login to application" name="login to account 3" time="0.000283">
+        <system-out>
+            <![CDATA[Given user is on Home page..................................................passed
+And user login with userid Komal and password K0987V........................passed
+When click on Submit Button.................................................passed
+Then user navigates to first page...........................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
